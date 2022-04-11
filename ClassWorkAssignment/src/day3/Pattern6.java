@@ -1,0 +1,20 @@
+package day3;
+
+public class Pattern6 {
+
+	public static void main(String[] args) {
+			System.out.println("All no print in box pattern");
+			
+			for(int i=1 ;i<=4; i++)
+			{
+				for(int j=1;j<=i;j++)
+				{
+					System.out.print(" "+j);
+				}
+				
+				System.out.println();
+			}
+
+	}
+
+}
